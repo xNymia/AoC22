@@ -36,9 +36,7 @@ int parseBackpackPt1(std::string& readBackpack, std::map<char, pair> charMap){
             score+=iter.second.first;
         }
     }
-
     return score;
-
 }
 
 int parseBackpackPt2(std::tuple<std::string,std::string,std::string>& currentGroup, std::map<char, pair> charMap){
@@ -72,20 +70,10 @@ int parseBackpackPt2(std::tuple<std::string,std::string,std::string>& currentGro
     int score = 0;
 
     for (auto const& iter : charMap) {
-
-        std::cout << iter.first
-            << " : "
-            << iter.second.first
-            << " : "
-            << iter.second.second
-            << std::endl;
-
-
         if (iter.second.second == 3){
            score+=iter.second.first;
         }
     }
-
     return score;
 }
 
@@ -174,9 +162,7 @@ int main () {
         default:
             break;
         }
-
     }
-
     
     std::cout << score1 << std::endl;
     std::cout << score2 << std::endl;
