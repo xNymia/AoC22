@@ -7,7 +7,7 @@
 
 typedef std::pair<int, int> pair;
 
-void charMapper (std::map<char, pair>& charMap, std::string string, int iterCount) {
+void charMapper (std::map<char, pair>& charMap, std::string& string, int iterCount) {
     for (int i = 0; i <= string.length();i++){
         char letter = string[i];
         if (charMap[letter].second == iterCount){
