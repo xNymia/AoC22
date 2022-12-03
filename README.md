@@ -1,6 +1,6 @@
 # AoC22
 
-![](https://img.shields.io/badge/C%2B%2B-Builds-blue) ![](https://img.shields.io/badge/AoC-2022-green)
+![](https://img.shields.io/badge/C%2B%2B-Builds-blue) ![](https://img.shields.io/badge/AoC-2022-green) ![](https://img.shields.io/badge/CodeQuality-Suspicious-red)
 
 C++ solutions for [Advent of Code 2022](https://adventofcode.com/2022) 🎄🎅
 
