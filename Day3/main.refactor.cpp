@@ -63,7 +63,7 @@ int main () {
     // Remove Null Terminating String
     charMap.erase('\x00');
 
-    std::ifstream backpackList("input.list");
+    std::ifstream backpackList("input.txt");
     std::string readBackpack;
     int score1 = 0;
     int score2 = 0;
