@@ -15,13 +15,8 @@ for line in input:
     firstElftemp = (matches.group(1), matches.group(2))
     secondElftemp = (matches.group(3), matches.group(4))
 
-
     firstElf = [int(x) for x in firstElftemp]
     secondElf = [int(x) for x in secondElftemp]
-
-
-    
-
 
     if firstElf[0] <= secondElf[0] and firstElf[1] >= secondElf[1]:
         ptOneScore += 1
