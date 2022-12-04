@@ -1,15 +1,11 @@
 #include <iostream>
 #include <fstream>
 #include <string>
-#include <map>
 #include <utility>
-#include <tuple>
 
 typedef std::pair<int, int> pair;
-typedef std::tuple<pair,pair> tuple;
 
 int main() {
-
     std::ifstream cleaningList("input.list");
     std::string cleaningArea;
 
