@@ -14,7 +14,7 @@ For descriptions of the puzzles see the website.
 |  2 | :star: :star: | 15  |   |
 |  3 | :star: :star: | 16  |   |
 |  4 | :star: :star: | 17  |   |
-|  5 |  | 18  |   |
+|  5 | :star: :star: | 18  |   |
 |  6 |  | 19  |   |
 |  7 |  | 20  |   |
 |  8 |  | 21  |   |
